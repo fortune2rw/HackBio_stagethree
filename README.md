@@ -74,16 +74,16 @@ Function: `pick_marker_gene()`
 Top gene with highest specificity and strongest detection consistency.
 
 ---
-##  UMAP Visualisation Logic
+## 🎨 UMAP Visualization Logic
 
-- **"All" selected** → Cells colored by cell type (cluster overview)
-- **Specific cell type selected** → Cells colored by marker gene expression (0–100 scale)
+- **"All" selected**  → Show all cells colored by **cell type** (overview of clusters).  
+- **Specific cell type selected**  → Show all cells colored by **marker gene expression** (scaled 0–100).
 
-Color scale:
+**Color scale for marker expression:**  
 
-- :White_circle: White → No expression
-- :Orange_circle : Low expression
-- :red_circle: Dark red → High expression
+- ⚪ **White circle** → No expression (0)  
+- 🟠 **Orange circle** → Low expression  
+- 🔴 **Red circle** → High expression
 
 ## 📈 App Workflow
 
