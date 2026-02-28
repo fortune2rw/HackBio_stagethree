@@ -74,6 +74,16 @@ Function: `pick_marker_gene()`
 Top gene with highest specificity and strongest detection consistency.
 
 ---
+##  UMAP Visualisation Logic
+
+- **"All" selected** → Cells colored by cell type (cluster overview)
+- **Specific cell type selected** → Cells colored by marker gene expression (0–100 scale)
+
+Color scale:
+
+- :White_circle: White → No expression
+- :Orange_circle : Low expression
+- :red_circle: Dark red → High expression
 
 ## 📈 App Workflow
 
@@ -96,5 +106,6 @@ Display statistics table + summary
 This app demonstrates:
 
 - Marker gene specificity logic
+- Visualisation by Highest marker gene
 - Expression detection metrics
 - Cluster-level vs gene-level visualisation
