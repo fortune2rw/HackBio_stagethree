@@ -8,7 +8,7 @@ Interactive **Shiny app** for exploring simulated single-cell RNA-seq data, visu
 
 ### 1️⃣ Install Required Packages (one-time)
 ```r
-install.packages(c("shiny", "dplyr"))
+install.packages(c("shiny", "dplyr", "ggplot2"))
 ```
 
 ### 2️⃣ Save Script
